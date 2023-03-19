@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="libs">
+      <UniqueIdentifier>{85f4f4f2-cf34-4eac-9e8e-410853a24a4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\socket">
+      <UniqueIdentifier>{b810111c-adbe-4ba7-94e1-e27d517bf971}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\PH_API">
+      <UniqueIdentifier>{d9cbfc9a-2b6e-42db-a52e-6189a4708619}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\picosha2">
+      <UniqueIdentifier>{f4a052aa-1159-41ed-83f1-2c13f4bdb4c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\crypto">
+      <UniqueIdentifier>{1ebaf9e0-ea2e-4cf6-9a3a-f2bd0d85363d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\cJSON">
+      <UniqueIdentifier>{2fd02ef0-f9f1-45ab-987c-542506adce87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="libs\AES">
+      <UniqueIdentifier>{2313005c-818a-41d3-bcfe-13009934c131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="headers\util">
+      <UniqueIdentifier>{9f8cdbf9-8eba-428f-a821-1ebd723bce5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\util\contrib">
+      <UniqueIdentifier>{203aec8b-15f9-4e88-b0c7-d51d4a57be52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\sdk">
+      <UniqueIdentifier>{bba5f127-82c5-43c9-a85a-205e279d80bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="headers\menu">
+      <UniqueIdentifier>{b9f91652-ff68-48a0-8f74-6babefb2530a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\hooks">
+      <UniqueIdentifier>{e893df6b-d581-446c-b177-b7a11aa7769a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\hooks\game">
+      <UniqueIdentifier>{dc598826-7ed4-4dd9-80fe-8dad20f9bfd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\menu">
+      <UniqueIdentifier>{22e5ac79-30aa-4c38-bc4b-b9c865cc8771}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="aimbot.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="bonesetup.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="csgo.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hooks.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hvh.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lagcomp.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="lagrecord.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="math.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="movement.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="penetration.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="pred.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="visuals.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="address.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="angle.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="basehandle.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="checkbox.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="clientclass.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="clientdll.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="clientmode.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="colorpicker.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="cvar.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="datamap.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="dropdown.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="element.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="engineclient.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entlist.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvars.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="glow.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="hash.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="matrix.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="memalloc.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="menu.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="pattern.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="pe.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="prediction.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="util.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="utlvector.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="vmt.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="winapir.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="tab.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="stack.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="slider.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="studio.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="netdata.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="multidropdown.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="form.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="studiorender.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="chams.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="nt.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="notify.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="grenades.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="unique_vector.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="resolver.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="skins.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="events.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gameevents.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="edit.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="keybind.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="matchframework.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="hud.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyformat.h">
+      <Filter>headers\util\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="localize.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="json.h">
+      <Filter>headers\util\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>headers\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="base64.h">
+      <Filter>headers\util\contrib</Filter>
+    </ClInclude>
+    <ClInclude Include="syscall.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="x86.h">
+      <Filter>headers\util</Filter>
+    </ClInclude>
+    <ClInclude Include="shots.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="gamerules.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="beams.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="networkstringtable.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>headers\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="entoffsets.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="netvars.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="interfaces.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerResource.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="networking.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\Downloads\supremacy-master (6)\supremacy-master\detours.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="AES\AES.h">
+      <Filter>libs\AES</Filter>
+    </ClInclude>
+    <ClInclude Include="cJSON\cJSON.h">
+      <Filter>libs\cJSON</Filter>
+    </ClInclude>
+    <ClInclude Include="PH_API\PH_API.hpp">
+      <Filter>libs\PH_API</Filter>
+    </ClInclude>
+    <ClInclude Include="picosha2\picosha2.h">
+      <Filter>libs\picosha2</Filter>
+    </ClInclude>
+    <ClInclude Include="socket\socket.hpp">
+      <Filter>libs\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="minhook.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="crypto.h">
+      <Filter>libs\crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="utlmemory.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bonesetup.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="csgo.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="hvh.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="knifebot.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="lagcomp.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="math.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="movement.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="penetration.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="pred.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="visuals.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="callbacks.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="checkbox.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="colorpicker.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="dropdown.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="form.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="slider.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="netdata.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="multidropdown.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="chams.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="hooks.cpp">
+      <Filter>source\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="wndproc.cpp">
+      <Filter>source\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="grenades.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="resolver.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="viewrender.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="prediction.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="netchannel.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="panel.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="clientmode.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="surface.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="clientdll.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="engine.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="shadowmgr.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="renderview.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="cvar.cpp">
+      <Filter>source\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>source\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="modelrender.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="skins.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="events.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="edit.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="keybind.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="matchframework.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="materialsystem.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="config.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>source\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="firebullets.cpp">
+      <Filter>source\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="shots.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="clientstate.cpp">
+      <Filter>source\hooks\game</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerResource.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="networking.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="AES\AES.cpp">
+      <Filter>libs\AES</Filter>
+    </ClCompile>
+    <ClCompile Include="cJSON\cJSON.c">
+      <Filter>libs\cJSON</Filter>
+    </ClCompile>
+    <ClCompile Include="socket\socket.cpp">
+      <Filter>libs\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_sync.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
